@@ -4,14 +4,14 @@
 
 ### 直接使用
 ```bash
-docker pull ziqinlei/docker-ssr
-docker run -d ziqinlei/docker-ssr:latest --name ssr -p 2333:2333
+docker pull ziqinlei/shadowsocks
+docker run -d ziqinlei/shadowsocks:latest --name ssr -p 2333:2333
 ```
 
 ### Dockerfile 构建
 ```bash
 git clone https://github.com/ziqinlei/docker-ssr.git
 cd docker-ssr
-docker build -t ssr:latest .
-sudo docker run -d --name ssr -p 2333:2333
+docker build -t shadowsocks:latest .
+docker run -d shadowsocks:latest --name ssr -p 2333:2333
 ```
