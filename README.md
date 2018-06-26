@@ -5,7 +5,7 @@
 ### 直接使用
 ```bash
 docker pull ziqinlei/shadowsocks
-docker run -d --name my_ssr -p 2333:2333 ziqinlei/shadowsocks:latest
+docker run -d --name ssr -p 2333:2333 ziqinlei/shadowsocks:latest
 ```
 
 ### Dockerfile 构建
