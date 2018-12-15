@@ -5,9 +5,9 @@
 ### 直接使用
 ```bash
 docker pull ziqinlei/shadowsocksr
-docker run --name shadowsocks -d --restart=always \
+docker run --name shadowsorcksr -d --restart=always \
   -p 2333:2333 \
-  ziqinlei/shadowsocks:latest
+  ziqinlei/shadowsorcksr:latest
 ```
 
 ### Dockerfile 构建
@@ -15,7 +15,7 @@ docker run --name shadowsocks -d --restart=always \
 git clone https://github.com/ziqinlei/docker-ssr.git
 cd docker-ssr
 docker build -t shadowsocksr:latest .
-docker run --name shadowsocks -d --restart=always \
+docker run --name shadowsorcksr -d --restart=always \
   -p 2333:2333 \
-  ziqinlei/shadowsocks:latest
+  ziqinlei/shadowsorcksr:latest
 ```
