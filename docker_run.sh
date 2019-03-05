@@ -1,5 +1,5 @@
 #!/bin/bash
 
 docker run --name shadowsocksr -d --restart=always \
-  -p 2333:2333 \
+  -p 8888:8888 \
   ziqinlei/shadowsocksr:latest

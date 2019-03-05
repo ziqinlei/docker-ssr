@@ -2,7 +2,7 @@ FROM alpine:3.7
 
 LABEL maintainer="https://github.com/ziqinlei"
 
-ENV SSR_SERVER_PORT 2333
+ENV SSR_SERVER_PORT 8888
 ENV SSR_PASSWORD ziqinlei@gmail.com
 ENV SSR_ENCRYTION aes-256-cfb
 ENV SSR_PROTOCOL auth_sha1_v4_compatible
